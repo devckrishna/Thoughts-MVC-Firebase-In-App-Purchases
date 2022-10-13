@@ -19,9 +19,6 @@
 		601DD27628F6EDFE00F273FC /* VIewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD26D28F6EDFE00F273FC /* VIewPostViewController.swift */; };
 		601DD27728F6EDFE00F273FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD26F28F6EDFE00F273FC /* SignUpViewController.swift */; };
 		601DD27828F6EDFE00F273FC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD27028F6EDFE00F273FC /* SignInViewController.swift */; };
-		601DD27928F6EDFE00F273FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD27228F6EDFE00F273FC /* HomeViewController.swift */; };
-		601DD27A28F6EDFE00F273FC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD27328F6EDFE00F273FC /* TabBarViewController.swift */; };
-		601DD27B28F6EDFE00F273FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD27428F6EDFE00F273FC /* ProfileViewController.swift */; };
 		601DD27E28F6EE8B00F273FC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601DD27D28F6EE8B00F273FC /* StoreKit.framework */; };
 		601DD28128F6EFEE00F273FC /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 601DD28028F6EFEE00F273FC /* RevenueCat */; };
 		601DD28428F6F03000F273FC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 601DD28328F6F03000F273FC /* FirebaseAuth */; };
@@ -30,6 +27,9 @@
 		601DD28A28F6F24900F273FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 601DD28928F6F24900F273FC /* GoogleService-Info.plist */; };
 		601DD28C28F6FA7E00F273FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD28B28F6FA7E00F273FC /* User.swift */; };
 		601DD28E28F6FA8500F273FC /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD28D28F6FA8500F273FC /* BlogPost.swift */; };
+		601DD29028F84B8300F273FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD28F28F84B8300F273FC /* HomeViewController.swift */; };
+		601DD29228F84B9200F273FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD29128F84B9200F273FC /* ProfileViewController.swift */; };
+		601DD29428F84BA300F273FC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DD29328F84BA300F273FC /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,13 +47,13 @@
 		601DD26D28F6EDFE00F273FC /* VIewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIewPostViewController.swift; sourceTree = "<group>"; };
 		601DD26F28F6EDFE00F273FC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		601DD27028F6EDFE00F273FC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		601DD27228F6EDFE00F273FC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		601DD27328F6EDFE00F273FC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		601DD27428F6EDFE00F273FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		601DD27D28F6EE8B00F273FC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		601DD28928F6F24900F273FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		601DD28B28F6FA7E00F273FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		601DD28D28F6FA8500F273FC /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		601DD28F28F84B8300F273FC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "Thoughts/Controllers/Core Tabs/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		601DD29128F84B9200F273FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "Thoughts/Controllers/Core Tabs/ProfileViewController.swift"; sourceTree = SOURCE_ROOT; };
+		601DD29328F84BA300F273FC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "Thoughts/Controllers/Core Tabs/TabBarViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,9 +172,9 @@
 		601DD27128F6EDFE00F273FC /* CoreTabs */ = {
 			isa = PBXGroup;
 			children = (
-				601DD27228F6EDFE00F273FC /* HomeViewController.swift */,
-				601DD27328F6EDFE00F273FC /* TabBarViewController.swift */,
-				601DD27428F6EDFE00F273FC /* ProfileViewController.swift */,
+				601DD28F28F84B8300F273FC /* HomeViewController.swift */,
+				601DD29328F84BA300F273FC /* TabBarViewController.swift */,
+				601DD29128F84B9200F273FC /* ProfileViewController.swift */,
 			);
 			path = CoreTabs;
 			sourceTree = "<group>";
@@ -271,17 +271,17 @@
 				601DD28E28F6FA8500F273FC /* BlogPost.swift in Sources */,
 				601DD26728F6EDFA00F273FC /* IAPManager.swift in Sources */,
 				601DD26828F6EDFA00F273FC /* AuthManager.swift in Sources */,
-				601DD27928F6EDFE00F273FC /* HomeViewController.swift in Sources */,
-				601DD27B28F6EDFE00F273FC /* ProfileViewController.swift in Sources */,
 				601DD27828F6EDFE00F273FC /* SignInViewController.swift in Sources */,
 				601DD26628F6EDFA00F273FC /* StorageManager.swift in Sources */,
+				601DD29228F84B9200F273FC /* ProfileViewController.swift in Sources */,
 				601DD28C28F6FA7E00F273FC /* User.swift in Sources */,
 				601DD27728F6EDFE00F273FC /* SignUpViewController.swift in Sources */,
 				601DD24428F6EDAF00F273FC /* AppDelegate.swift in Sources */,
 				601DD24628F6EDAF00F273FC /* SceneDelegate.swift in Sources */,
+				601DD29028F84B8300F273FC /* HomeViewController.swift in Sources */,
 				601DD27628F6EDFE00F273FC /* VIewPostViewController.swift in Sources */,
 				601DD26928F6EDFA00F273FC /* DatabaseManager.swift in Sources */,
-				601DD27A28F6EDFE00F273FC /* TabBarViewController.swift in Sources */,
+				601DD29428F84BA300F273FC /* TabBarViewController.swift in Sources */,
 				601DD27528F6EDFE00F273FC /* CreateNewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
