@@ -1,9 +1,4 @@
-//
-//  DatabaseManager.swift
-//  Thoughts
-//
-//  Created by Afraz Siddiqui on 7/11/21.
-//
+
 
 import Foundation
 import FirebaseFirestore

@@ -1,9 +1,3 @@
-//
-//  User.swift
-//  Thoughts
-//
-//  Created by Dev C Krishna on 12/10/22.
-//
 
 import Foundation
 

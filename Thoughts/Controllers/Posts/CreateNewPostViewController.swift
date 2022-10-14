@@ -1,10 +1,3 @@
-//
-//  CreateNewPostViewController.swift
-//  Thoughts
-//
-//  Created by Afraz Siddiqui on 7/11/21.
-//
-
 import UIKit
 
 class CreateNewPostViewController: UITabBarController {
